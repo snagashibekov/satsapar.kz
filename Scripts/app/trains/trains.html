@@ -1,0 +1,102 @@
+<link rel="stylesheet" href="Scripts/app/trains/trains.css">
+<div id="trains">
+    <div class="date-nav row">
+        <div class="col-sm-4 col-xs-4 btn ripple" ng-click="vm.moveDate(0)">{{vm.dates[0] | date : "EEE dd MMM"}}</a>
+        </div>
+        <div class="col-sm-4 col-xs-4 btn active" ng-click="vm.moveDate(1)">{{vm.dates[1] | date : "EEE dd MMM"}}</a>
+        </div>
+        <div class="col-sm-4 col-xs-4 btn ripple" ng-click="vm.moveDate(2)">{{vm.dates[2] | date : "EEE dd MMM"}}</a>
+        </div>
+    </div>
+    <div class="train" ng-repeat="tr in vm.trainsInfo.Trains[0].TrainsCollection">
+        <div class="train-fields row">
+            <div class="train-departure-field col-md-3 col-xs-4 col-sm-4">
+                <span class="date">{{tr.DepartureDateTime | getDate | date : "dd MMM"}}</span>
+                <span class="time">{{tr.DepartureDateTime | getDate | date : "HH:mm"}}</span>
+                <span class="location">из {{vm.getCapitalized(vm.trainsInfo.PassRouteFrom)}}</span>
+            </div>
+            <div class="trip-time-field col-md-3 col-xs-4 col-sm-4">
+                <span class="line"></span>
+                <i class="arrow-right-icon"></i>
+                <span class="travel-time">
+                    {{ tr.TimeInWay.substring(0,2)+"ч "+tr.TimeInWay.substring(3,5)+"м"}}
+                </span>
+                <span class="travel-time-label">Время в пути</span>
+            </div>
+            <div class="train-arrival-field col-md-3 col-xs-4 col-sm-4">
+                <span class="date">{{tr.ArrivalDateTime | getDate | date : "dd MMM"}}</span>
+                <span class="time">{{tr.ArrivalDateTime | getDate | date : "HH:mm"}}</span>
+                <span class="location">в {{vm.getCapitalized(vm.trainsInfo.PassRouteTo)}}</span>
+            </div>
+        </div>
+        <div class="train-fields row">
+            <div class="col-sm-3 col-xs-4">
+                <i class="train-icon"></i>
+                <span>{{tr.Number}}</span>
+            </div>
+            <div class="col-sm-9 col-xs-8">
+                <span>
+                    {{vm.getCapitalized(tr.Route[0])+ " - "+ vm.getCapitalized(tr.Route[1])}}</span>
+            </div>
+        </div>
+        <div class="train-fields row">
+
+            <div class="col-xs-4 col-sm-3" ng-repeat="c in tr.Cars | orderBy:'Tariffs[0].ClassService.Value'" ng-if="!tr.detailedCars">
+                <a ng-click="vm.getCar(tr,vm.getWagonType(c.Type,c.Tariffs[0].ClassService,c.Tariffs[0].TariffValue),c.Tariffs[0].ClassService)"
+                    class="btn btn-wagon ripple">
+                    <span>{{vm.getWagonType(c.Type,c.Tariffs[0].ClassService)}}</span>
+                    <span class="place-price">{{c.Tariffs[0].TariffValue}} &#8376; </span>
+                </a>
+            </div>
+            <div class="col-xs-4 col-sm-3" ng-repeat="c in tr.detailedCars" ng-if="tr.detailedCars">
+                <a ng-click="vm.getCar(tr,c.Type,c.ClassService,c.Tariff)" ng-class="{active:tr.SelectedCars.Type===c.Type && tr===vm.activeTrain}"
+                    class="btn btn-wagon ripple">
+                    <span>{{c.Type.length>5?c.Type.substr(0,5):c.Type}}</span>
+                    <span class="place-price">{{c.Tariff}} &#8376; </span>
+                </a>
+            </div>
+        </div>
+        <div ng-if="vm.activeTrain===tr" class="selected-cars">
+            <div>
+                <div class="radios ripple" ng-repeat="car in tr.SelectedCars.Cars">
+                    <div>
+                        <label ng-class="{active:car.selected}">
+                            <input class="a" ng-checked="car.selected" ng-value="car.selected" ng-click="vm.changeCar(tr,car,tr.SelectedCars)" name="wagon"
+                                type="radio">
+                            <!-- data-bind="value:$data.Number,click: $root.clickchangecar.bind($root,$data),attr:{'id':'radio'+$index(),'name':'radios',checked: $data===$root.car()}" -->
+                            {{car.Number}} вагон (
+                            <span class="bracket-hint">{{car.Places.length}} м</span>)</label>
+                    </div>
+                </div>
+            </div>
+            <div ng-if="tr.SelectedCars">
+                <div class="place-desc-div">
+                    <span class="place-description">Обозначение мест:</span>
+                    <div class="available-places-color"></div>
+                    <span class="available-places-text">Доступные</span>
+                    <div class="selected-places-color"></div>
+                    <span class="selected-places-text">Выбранные</span>
+                    <div class="sold-places-color"></div>
+                    <span class="sold-places-text">Недоступные</span>
+                </div>
+                <div class="wagon-picture">
+                    <wagon-info  train="tr" />
+                </div>
+                <div class="hint-div">
+                    <div class="places-hint">
+                        <span class="places-hint-1">Места будут забронированы из выбранного Вами диапазона:
+                            <span >{{tr.selectionInText || _}}</span>
+                        </span>
+                        Проверить места Вы сможете перед оплатой заказа.
+                    </div>
+                </div>
+                <div class="order-generate-div">
+                    <a class="btn btn-wagon order-generate ripple" data-bind="click: $root.sendinfo">
+                        Оформить заказ
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

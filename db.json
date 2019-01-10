@@ -1,0 +1,479 @@
+{
+  "StationAutoComplete": [
+    {
+      "StationName": "Алтынколь ->КАЗАХСТАН",
+      "StationCode": "2700023"
+    },
+    {
+      "StationName": "АСТАНА-НУРЛЫ ЖОЛ ->КАЗАХСТАН",
+      "StationCode": "2700152"
+    },
+    {
+      "StationName": "АЩЕ-БУТАК ->РОССИЯ",
+      "StationCode": "2040371"
+    },
+    {
+      "StationName": "АЙДЫРЛЯ ->РОССИЯ",
+      "StationCode": "2040383"
+    },
+    {
+      "StationName": "АННЕНСК ->РОССИЯ",
+      "StationCode": "2040392"
+    },
+    {
+      "StationName": "АЛЬМУХАМЕДОВО ->РОССИЯ",
+      "StationCode": "2040399"
+    },
+    {
+      "StationName": "АЙ ->РОССИЯ",
+      "StationCode": "2040435"
+    },
+    {
+      "StationName": "АЗЯМ ->РОССИЯ",
+      "StationCode": "2040457"
+    },
+    {
+      "StationName": "АРАСЛАНОВО ->РОССИЯ",
+      "StationCode": "2040461"
+    },
+    {
+      "StationName": "АРГАЯШ ->РОССИЯ",
+      "StationCode": "2040476"
+    },
+    {
+      "StationName": "АЛАКУЛЬ ->РОССИЯ",
+      "StationCode": "2040495"
+    },
+    {
+      "StationName": "АСАНОВО ->РОССИЯ",
+      "StationCode": "2040535"
+    },
+    {
+      "StationName": "АНОСОВО ->РОССИЯ",
+      "StationCode": "2041501"
+    },
+    {
+      "StationName": "АНБАШСКАЯ ->РОССИЯ",
+      "StationCode": "2041613"
+    },
+    {
+      "StationName": "АРЧАЛЫ ->РОССИЯ",
+      "StationCode": "2042623"
+    },
+    {
+      "StationName": "АЛТЫН-ТАШ ->РОССИЯ",
+      "StationCode": "2042702"
+    },
+    {
+      "StationName": "АДЖАТАР ->РОССИЯ",
+      "StationCode": "2043667"
+    },
+    {
+      "StationName": "АЛМА-АТА ->КАЗАХСТАН",
+      "StationCode": "2700000"
+    },
+    {
+      "StationName": "АЛМА-АТА 2 ->КАЗАХСТАН",
+      "StationCode": "2700001"
+    },
+    {
+      "StationName": "АЛМА-АТА 1 ->КАЗАХСТАН",
+      "StationCode": "2700002"
+    },
+    {
+      "StationName": "АИРТАУ ->КАЗАХСТАН",
+      "StationCode": "2700007"
+    },
+    {
+      "StationName": "АБАИЛ ->КАЗАХСТАН",
+      "StationCode": "2700062"
+    },
+    {
+      "StationName": "АЛТЫНДАЛА ->КАЗАХСТАН",
+      "StationCode": "2700089"
+    },
+    {
+      "StationName": "АКТОГАЙ ВОСТОЧНЫЙ ->КАЗАХСТАН",
+      "StationCode": "2700102"
+    },
+    {
+      "StationName": "АКЖИГИТ ->КАЗАХСТАН",
+      "StationCode": "2700112"
+    },
+    {
+      "StationName": "АКТОГАЙ ->КАЗАХСТАН",
+      "StationCode": "2700670"
+    },
+    {
+      "StationName": "АРЫСЬ 1 ->КАЗАХСТАН",
+      "StationCode": "2700680"
+    },
+    {
+      "StationName": "АВРОРА ->КАЗАХСТАН",
+      "StationCode": "2700681"
+    },
+    {
+      "StationName": "АРЫСЬ ->КАЗАХСТАН",
+      "StationCode": "2700685"
+    },
+    {
+      "StationName": "АЯГОЗ ->КАЗАХСТАН",
+      "StationCode": "2700690"
+    },
+    {
+      "StationName": "АУЛ ->КАЗАХСТАН",
+      "StationCode": "2700701"
+    },
+    {
+      "StationName": "АКСЕНГЕР ->КАЗАХСТАН",
+      "StationCode": "2700732"
+    },
+    {
+      "StationName": "АЙГЫРЖАЛ ->КАЗАХСТАН",
+      "StationCode": "2700735"
+    },
+    {
+      "StationName": "АЛТЫНКОЛАТ ->КАЗАХСТАН",
+      "StationCode": "2700736"
+    },
+    {
+      "StationName": "АК-БУЛАТ ->КАЗАХСТАН",
+      "StationCode": "2700744"
+    },
+    {
+      "StationName": "АКБАЛЫК ->КАЗАХСТАН",
+      "StationCode": "2700766"
+    },
+    {
+      "StationName": "АРГАНАТЫ ->КАЗАХСТАН",
+      "StationCode": "2700767"
+    },
+    {
+      "StationName": "АК-УЗЯК ->КАЗАХСТАН",
+      "StationCode": "2700774"
+    },
+    {
+      "StationName": "АЛАЖИДЕ ->КАЗАХСТАН",
+      "StationCode": "2700777"
+    },
+    {
+      "StationName": "АЙНА-БУЛАК ->КАЗАХСТАН",
+      "StationCode": "2700794"
+    },
+    {
+      "StationName": "АРХАРЛЫ ->КАЗАХСТАН",
+      "StationCode": "2700801"
+    },
+    {
+      "StationName": "АНРАХАЙ ->КАЗАХСТАН",
+      "StationCode": "2700817"
+    },
+    {
+      "StationName": "АЛА-АЙГИР ->КАЗАХСТАН",
+      "StationCode": "2700821"
+    },
+    {
+      "StationName": "АКЖАР ->КАЗАХСТАН",
+      "StationCode": "2700834"
+    },
+    {
+      "StationName": "АСПАРА ->КАЗАХСТАН",
+      "StationCode": "2700841"
+    },
+    {
+      "StationName": "АКЫР-ТЮБЕ ->КАЗАХСТАН",
+      "StationCode": "2700847"
+    },
+    {
+      "StationName": "АК-ЧУЛАК ->КАЗАХСТАН",
+      "StationCode": "2700848"
+    },
+    {
+      "StationName": "АКТАУТАС ->КАЗАХСТАН",
+      "StationCode": "2700855"
+    },
+    {
+      "StationName": "АССА ->КАЗАХСТАН",
+      "StationCode": "2700858"
+    },
+    {
+      "StationName": "АРЫСЬ 2 ->КАЗАХСТАН",
+      "StationCode": "2700877"
+    },
+    {
+      "StationName": "АКДАЛА ->КАЗАХСТАН",
+      "StationCode": "2700884"
+    },
+    {
+      "StationName": "АКТАС ->КАЗАХСТАН",
+      "StationCode": "2700886"
+    },
+    {
+      "StationName": "АКШОКАТ ->КАЗАХСТАН",
+      "StationCode": "2700906"
+    },
+    {
+      "StationName": "АКНАН ->КАЗАХСТАН",
+      "StationCode": "2700907"
+    },
+    {
+      "StationName": "АКТОБЕ ->КАЗАХСТАН",
+      "StationCode": "2704600"
+    },
+    {
+      "StationName": "АККУДЫК ->КАЗАХСТАН",
+      "StationCode": "2704707"
+    },
+    {
+      "StationName": "АЙТЕКЕ БИ ->КАЗАХСТАН",
+      "StationCode": "2704711"
+    },
+    {
+      "StationName": "АЙКЕ ->КАЗАХСТАН",
+      "StationCode": "2704714"
+    },
+    {
+      "StationName": "АЛТЫНСАРИН ->КАЗАХСТАН",
+      "StationCode": "2704717"
+    },
+    {
+      "StationName": "АРКА ->КАЗАХСТАН",
+      "StationCode": "2704718"
+    },
+    {
+      "StationName": "АК-КИСТАУ ->КАЗАХСТАН",
+      "StationCode": "2704793"
+    },
+    {
+      "StationName": "АКЖАЙЫК ->КАЗАХСТАН",
+      "StationCode": "2704795"
+    },
+    {
+      "StationName": "АТЫРАУ ->КАЗАХСТАН",
+      "StationCode": "2704830"
+    },
+    {
+      "StationName": "АЛЖАН ->КАЗАХСТАН",
+      "StationCode": "2704844"
+    },
+    {
+      "StationName": "АЛГА ->КАЗАХСТАН",
+      "StationCode": "2704845"
+    },
+    {
+      "StationName": "АККЕМЕР ->КАЗАХСТАН",
+      "StationCode": "2704848"
+    },
+    {
+      "StationName": "АК-БУЛАК ->КАЗАХСТАН",
+      "StationCode": "2704850"
+    },
+    {
+      "StationName": "АЙРЫКТАС ->КАЗАХСТАН",
+      "StationCode": "2704855"
+    },
+    {
+      "StationName": "АЛАБАС ->КАЗАХСТАН",
+      "StationCode": "2704858"
+    },
+    {
+      "StationName": "АЛТЫ-КУДУК ->КАЗАХСТАН",
+      "StationCode": "2704893"
+    },
+    {
+      "StationName": "АРАЛ-КУМ ->КАЗАХСТАН",
+      "StationCode": "2704895"
+    },
+    {
+      "StationName": "АНА-КУЛЬ ->КАЗАХСТАН",
+      "StationCode": "2704909"
+    },
+    {
+      "StationName": "АБЫЛА ->КАЗАХСТАН",
+      "StationCode": "2704911"
+    },
+    {
+      "StationName": "АЙТЕК ->КАЗАХСТАН",
+      "StationCode": "2704919"
+    },
+    {
+      "StationName": "АКТАЙЛАК ->КАЗАХСТАН",
+      "StationCode": "2704922"
+    },
+    {
+      "StationName": "АКМАЯ ->КАЗАХСТАН",
+      "StationCode": "2704936"
+    },
+    {
+      "StationName": "АККУМ ->КАЗАХСТАН",
+      "StationCode": "2704942"
+    },
+    {
+      "StationName": "АРАЛЬСКОЕ МОРЕ ->КАЗАХСТАН",
+      "StationCode": "2704950"
+    },
+    {
+      "StationName": "АЛГАБАС ->КАЗАХСТАН",
+      "StationCode": "2704966"
+    },
+    {
+      "StationName": "АНГАТЫ ->КАЗАХСТАН",
+      "StationCode": "2704967"
+    },
+    {
+      "StationName": "АМАНГЕЛЬДЫ ->КАЗАХСТАН",
+      "StationCode": "2704973"
+    },
+    {
+      "StationName": "АФАНАСЬЕВО ->КАЗАХСТАН",
+      "StationCode": "2704994"
+    },
+    {
+      "StationName": "АКЕСПЕ ->КАЗАХСТАН",
+      "StationCode": "2705802"
+    },
+    {
+      "StationName": "АКБОБЕК ->КАЗАХСТАН",
+      "StationCode": "2705883"
+    },
+    {
+      "StationName": "АСТАНА ->КАЗАХСТАН",
+      "StationCode": "2708000"
+    },
+    {
+      "StationName": "АЩЕЛИСАЙСКАЯ ->КАЗАХСТАН",
+      "StationCode": "2708103"
+    },
+    {
+      "StationName": "АКСУ ->КАЗАХСТАН",
+      "StationCode": "2708109"
+    },
+    {
+      "StationName": "АК-КУЛЬ ->КАЗАХСТАН",
+      "StationCode": "2708840"
+    },
+    {
+      "StationName": "АКСУАТ ->КАЗАХСТАН",
+      "StationCode": "2708845"
+    },
+    {
+      "StationName": "АЩИ-ГОЛЬ ->КАЗАХСТАН",
+      "StationCode": "2708861"
+    },
+    {
+      "StationName": "АЗАТ ->КАЗАХСТАН",
+      "StationCode": "2708869"
+    },
+    {
+      "StationName": "АРКАЛЫК ->КАЗАХСТАН",
+      "StationCode": "2708877"
+    },
+    {
+      "StationName": "АТБАСАР ->КАЗАХСТАН",
+      "StationCode": "2708880"
+    },
+    {
+      "StationName": "АДЫР ->КАЗАХСТАН",
+      "StationCode": "2708886"
+    },
+    {
+      "StationName": "АСТРАХАНКА ->КАЗАХСТАН",
+      "StationCode": "2708889"
+    },
+    {
+      "StationName": "АНАР ->КАЗАХСТАН",
+      "StationCode": "2708903"
+    },
+    {
+      "StationName": "АКТАУ ->КАЗАХСТАН",
+      "StationCode": "2708905"
+    },
+    {
+      "StationName": "АККУДЫК ->КАЗАХСТАН",
+      "StationCode": "2708911"
+    },
+    {
+      "StationName": "АЛКАУ ->КАЗАХСТАН",
+      "StationCode": "2708919"
+    },
+    {
+      "StationName": "АКАДЫР ->КАЗАХСТАН",
+      "StationCode": "2708921"
+    },
+    {
+      "StationName": "АЙСА ->КАЗАХСТАН",
+      "StationCode": "2708923"
+    },
+    {
+      "StationName": "АКЖАЙДАК ->КАЗАХСТАН",
+      "StationCode": "2708924"
+    },
+    {
+      "StationName": "АКШАГЫЛ ->КАЗАХСТАН",
+      "StationCode": "2708926"
+    },
+    {
+      "StationName": "АРКАРЛЫ ->КАЗАХСТАН",
+      "StationCode": "2708927"
+    },
+    {
+      "StationName": "АСТАХОВКА ->КАЗАХСТАН",
+      "StationCode": "2708928"
+    },
+    {
+      "StationName": "АТАСУ ->КАЗАХСТАН",
+      "StationCode": "2708929"
+    },
+    {
+      "StationName": "АЩЫОЗЕК ->КАЗАХСТАН",
+      "StationCode": "2708931"
+    },
+    {
+      "StationName": "АЩИСУ ->КАЗАХСТАН",
+      "StationCode": "2708932"
+    },
+    {
+      "StationName": "АКТАЙ ->КАЗАХСТАН",
+      "StationCode": "2708962"
+    },
+    {
+      "StationName": "АЛТЫНТАУ ->КАЗАХСТАН",
+      "StationCode": "2708975"
+    },
+    {
+      "StationName": "АТЫГАЙ ->КАЗАХСТАН",
+      "StationCode": "2708985"
+    },
+    {
+      "StationName": "АКТАСТЫ ->КАЗАХСТАН",
+      "StationCode": "2708991"
+    },
+    {
+      "StationName": "АКСУ 1 ->КАЗАХСТАН",
+      "StationCode": "2709928"
+    },
+    {
+      "StationName": "АРЫСТАНСОР ->КАЗАХСТАН",
+      "StationCode": "2709929"
+    },
+    {
+      "StationName": "АПАНОВКА ->КАЗАХСТАН",
+      "StationCode": "2709939"
+    },
+    {
+      "StationName": "АМАНКАРАГАЙ ->КАЗАХСТАН",
+      "StationCode": "2709942"
+    },
+    {
+      "StationName": "АЙСАРЫ ->КАЗАХСТАН",
+      "StationCode": "2709973"
+    },
+    {
+      "StationName": "АКСУ 2 ->КАЗАХСТАН",
+      "StationCode": "2709983"
+    }
+  ],
+  "SearchTrain": {"PassRouteCodeFrom":"2700000","PassRouteCodeTo":"2704999","PassRouteFrom":"АЛМА-АТА","PassRouteTo":"КЗЫЛ-ОРДА","NotAllTrains":false,"Trains":[{"Date":"\/Date(1515175200000)\/","TrainsCollection":[{"Number":"007Р","Number2":"007Р","Route":["АЛМА АТА 2","САРАТОВ 1"],"DepartureDateTime":"\/Date(1515181500000)\/","DepartureStop":null,"ArrivalDateTime":"\/Date(1515262200000)\/","ArrivalStop":"00:20:00","TimeInWay":"22:25:00","ElRegPossible":true,"Comments":[],"Cars":[{"Type":3,"FreeSeats":30,"Seats":{"SeatsUndef":null,"SeatsDn":2,"SeatsUp":14,"SeatsLateralDn":7,"SeatsLateralUp":7,"FreeComp":0},"Tariffs":[{"ClassService":{"Type":"3П","Value":"Плацкартный вагон."},"ClassServiceInt":null,"AddSigns":null,"TariffValue":4404,"TariffValue2":null,"TariffService":250,"Carrier":[[[]]],"Owner":{"Type":"КЗХ/КЗХ","Country":{"Code":"27","Name":"КАЗАХСТАН"},"Railway":{"Code":"68","Name":"КАЗАХСТАНСКАЯ"}},"SaleLimitation":0,"ElRegPossible":{"UK":false,"AKP":false},"Seats":{"SeatsUndef":null,"SeatsDn":2,"SeatsUp":14,"SeatsLateralDn":7,"SeatsLateralUp":7,"FreeComp":0}}]},{"Type":4,"FreeSeats":24,"Seats":{"SeatsUndef":null,"SeatsDn":2,"SeatsUp":22,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":0},"Tariffs":[{"ClassService":{"Type":"2К","Value":"Купейный вагон с УКВ и ЭЧТК."},"ClassServiceInt":null,"AddSigns":null,"TariffValue":6847,"TariffValue2":null,"TariffService":250,"Carrier":[[[]]],"Owner":{"Type":"КЗХ/КЗХ","Country":{"Code":"27","Name":"КАЗАХСТАН"},"Railway":{"Code":"68","Name":"КАЗАХСТАНСКАЯ"}},"SaleLimitation":0,"ElRegPossible":{"UK":false,"AKP":false},"Seats":{"SeatsUndef":null,"SeatsDn":2,"SeatsUp":22,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":0}}]}]},{"Number":"021Ц","Number2":"021Ц","Route":["СЕМИПАЛАТ","КЗЫЛ ОРДА"],"DepartureDateTime":"\/Date(1515205620000)\/","DepartureStop":"00:38:00","ArrivalDateTime":"\/Date(1515286320000)\/","ArrivalStop":null,"TimeInWay":"22:25:00","ElRegPossible":true,"Comments":[],"Cars":[{"Type":3,"FreeSeats":44,"Seats":{"SeatsUndef":null,"SeatsDn":3,"SeatsUp":21,"SeatsLateralDn":13,"SeatsLateralUp":7,"FreeComp":0},"Tariffs":[{"ClassService":{"Type":"3П","Value":"Плацкартный вагон."},"ClassServiceInt":null,"AddSigns":null,"TariffValue":3821,"TariffValue2":null,"TariffService":250,"Carrier":[[[]]],"Owner":{"Type":"КЗХ/КЗХ","Country":{"Code":"27","Name":"КАЗАХСТАН"},"Railway":{"Code":"68","Name":"КАЗАХСТАНСКАЯ"}},"SaleLimitation":0,"ElRegPossible":{"UK":false,"AKP":false},"Seats":{"SeatsUndef":null,"SeatsDn":3,"SeatsUp":21,"SeatsLateralDn":13,"SeatsLateralUp":7,"FreeComp":0}}]},{"Type":4,"FreeSeats":43,"Seats":{"SeatsUndef":null,"SeatsDn":1,"SeatsUp":42,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":0},"Tariffs":[{"ClassService":{"Type":"2К","Value":"Купейный вагон с УКВ и ЭЧТК."},"ClassServiceInt":null,"AddSigns":null,"TariffValue":5923,"TariffValue2":null,"TariffService":250,"Carrier":[[[]]],"Owner":{"Type":"КЗХ/КЗХ","Country":{"Code":"27","Name":"КАЗАХСТАН"},"Railway":{"Code":"68","Name":"КАЗАХСТАНСКАЯ"}},"SaleLimitation":0,"ElRegPossible":{"UK":false,"AKP":false},"Seats":{"SeatsUndef":null,"SeatsDn":1,"SeatsUp":42,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":0}}]}]},{"Number":"041Ц","Number2":"041Ц","Route":["АЛМА АТА 1","АТЫРАУ"],"DepartureDateTime":"\/Date(1515249060000)\/","DepartureStop":null,"ArrivalDateTime":"\/Date(1515333000000)\/","ArrivalStop":"00:30:00","TimeInWay":"23:19:00","ElRegPossible":true,"Comments":[],"Cars":[{"Type":3,"FreeSeats":28,"Seats":{"SeatsUndef":null,"SeatsDn":0,"SeatsUp":0,"SeatsLateralDn":1,"SeatsLateralUp":27,"FreeComp":0},"Tariffs":[{"ClassService":{"Type":"3П","Value":"Плацкартный вагон."},"ClassServiceInt":null,"AddSigns":null,"TariffValue":4404,"TariffValue2":null,"TariffService":250,"Carrier":[[[]]],"Owner":{"Type":"КЗХ/КЗХ","Country":{"Code":"27","Name":"КАЗАХСТАН"},"Railway":{"Code":"68","Name":"КАЗАХСТАНСКАЯ"}},"SaleLimitation":0,"ElRegPossible":{"UK":false,"AKP":false},"Seats":{"SeatsUndef":null,"SeatsDn":0,"SeatsUp":0,"SeatsLateralDn":1,"SeatsLateralUp":27,"FreeComp":0}}]},{"Type":4,"FreeSeats":1,"Seats":{"SeatsUndef":null,"SeatsDn":0,"SeatsUp":1,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":0},"Tariffs":[{"ClassService":{"Type":"2К","Value":"Купейный вагон с УКВ и ЭЧТК."},"ClassServiceInt":null,"AddSigns":null,"TariffValue":6847,"TariffValue2":null,"TariffService":250,"Carrier":[[[]]],"Owner":{"Type":"КЗХ/КЗХ","Country":{"Code":"27","Name":"КАЗАХСТАН"},"Railway":{"Code":"68","Name":"КАЗАХСТАНСКАЯ"}},"SaleLimitation":0,"ElRegPossible":{"UK":false,"AKP":false},"Seats":{"SeatsUndef":null,"SeatsDn":0,"SeatsUp":1,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":0}}]}]},{"Number":"049Т","Number2":"049Т","Route":["АЛМА АТА 2","УРАЛЬСК"],"DepartureDateTime":"\/Date(1515258300000)\/","DepartureStop":null,"ArrivalDateTime":"\/Date(1515320640000)\/","ArrivalStop":"00:10:00","TimeInWay":"17:19:00","ElRegPossible":true,"Comments":[],"Cars":[{"Type":4,"FreeSeats":67,"Seats":{"SeatsUndef":null,"SeatsDn":7,"SeatsUp":60,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":3},"Tariffs":[{"ClassService":{"Type":"2Д","Value":"Класс \"Турист\". Купейный вагон."},"ClassServiceInt":null,"AddSigns":null,"TariffValue":12684,"TariffValue2":null,"TariffService":250,"Carrier":[[[]]],"Owner":{"Type":"КЗХ/КЗХ","Country":{"Code":"27","Name":"КАЗАХСТАН"},"Railway":{"Code":"68","Name":"КАЗАХСТАНСКАЯ"}},"SaleLimitation":0,"ElRegPossible":{"UK":false,"AKP":false},"Seats":{"SeatsUndef":null,"SeatsDn":7,"SeatsUp":60,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":3}}]},{"Type":6,"FreeSeats":10,"Seats":{"SeatsUndef":null,"SeatsDn":3,"SeatsUp":7,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":3},"Tariffs":[{"ClassService":{"Type":"1Д","Value":"Класс \"Турист\". Вагон СВ с УКВ."},"ClassServiceInt":null,"AddSigns":null,"TariffValue":20064,"TariffValue2":null,"TariffService":250,"Carrier":[[[]]],"Owner":{"Type":"КЗХ/КЗХ","Country":{"Code":"27","Name":"КАЗАХСТАН"},"Railway":{"Code":"68","Name":"КАЗАХСТАНСКАЯ"}},"SaleLimitation":0,"ElRegPossible":{"UK":false,"AKP":false},"Seats":{"SeatsUndef":null,"SeatsDn":0,"SeatsUp":4,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":0}},{"ClassService":{"Type":"1Л","Value":"Вагон СВ с УКВ."},"ClassServiceInt":null,"AddSigns":null,"TariffValue":26083,"TariffValue2":null,"TariffService":250,"Carrier":[[[]]],"Owner":{"Type":"КЗХ/КЗХ","Country":{"Code":"27","Name":"КАЗАХСТАН"},"Railway":{"Code":"68","Name":"КАЗАХСТАНСКАЯ"}},"SaleLimitation":0,"ElRegPossible":{"UK":false,"AKP":false},"Seats":{"SeatsUndef":null,"SeatsDn":3,"SeatsUp":3,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":3}}]}]},{"Number":"033Ц","Number2":"033Ц","Route":["АЛМА АТА 1","АКТОБЕ-1"],"DepartureDateTime":"\/Date(1515260940000)\/","DepartureStop":null,"ArrivalDateTime":"\/Date(1515344640000)\/","ArrivalStop":"00:20:00","TimeInWay":"23:15:00","ElRegPossible":true,"Comments":[],"Cars":[{"Type":3,"FreeSeats":19,"Seats":{"SeatsUndef":null,"SeatsDn":0,"SeatsUp":19,"SeatsLateralDn":0,"SeatsLateralUp":0,"FreeComp":0},"Tariffs":[{"ClassService":{"Type":"3П","Value":"Плацкартный вагон."},"ClassServiceInt":null,"AddSigns":null,"TariffValue":4404,"TariffValue2":null,"TariffService":250,"Carrier":[[[]]],"Owner":{"Type":"КЗХ/КЗХ","Country":{"Code":"27","Name":"КАЗАХСТАН"},"Railway":{"Code":"68","Name":"КАЗАХСТАНСКАЯ"}},"SaleLimitation":0,"ElRegPossible":{"UK":false,"AKP":false},"Seats":{"SeatsUndef":null,"SeatsDn":0,"SeatsUp":19,"SeatsLateralDn":0,"SeatsLateralUp":0,"FreeComp":0}}]},{"Type":4,"FreeSeats":12,"Seats":{"SeatsUndef":null,"SeatsDn":0,"SeatsUp":12,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":0},"Tariffs":[{"ClassService":{"Type":"2К","Value":"Купейный вагон с УКВ и ЭЧТК."},"ClassServiceInt":null,"AddSigns":null,"TariffValue":6847,"TariffValue2":null,"TariffService":250,"Carrier":[[[]]],"Owner":{"Type":"КЗХ/КЗХ","Country":{"Code":"27","Name":"КАЗАХСТАН"},"Railway":{"Code":"68","Name":"КАЗАХСТАНСКАЯ"}},"SaleLimitation":0,"ElRegPossible":{"UK":false,"AKP":false},"Seats":{"SeatsUndef":null,"SeatsDn":0,"SeatsUp":12,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":0}}]}]},{"Number":"377Т","Number2":"377Т","Route":["АЛМА АТА 2","МАНГЫШЛАК"],"DepartureDateTime":"\/Date(1515261540000)\/","DepartureStop":null,"ArrivalDateTime":"\/Date(1515355380000)\/","ArrivalStop":"00:20:00","TimeInWay":"1.02:04:00","ElRegPossible":true,"Comments":[],"Cars":[{"Type":3,"FreeSeats":52,"Seats":{"SeatsUndef":null,"SeatsDn":0,"SeatsUp":17,"SeatsLateralDn":6,"SeatsLateralUp":29,"FreeComp":0},"Tariffs":[{"ClassService":{"Type":"3П","Value":"Плацкартный вагон."},"ClassServiceInt":null,"AddSigns":null,"TariffValue":3509,"TariffValue2":null,"TariffService":250,"Carrier":[[[]]],"Owner":{"Type":"КЗХ/КЗХ","Country":{"Code":"27","Name":"КАЗАХСТАН"},"Railway":{"Code":"68","Name":"КАЗАХСТАНСКАЯ"}},"SaleLimitation":0,"ElRegPossible":{"UK":false,"AKP":false},"Seats":{"SeatsUndef":null,"SeatsDn":0,"SeatsUp":17,"SeatsLateralDn":6,"SeatsLateralUp":29,"FreeComp":0}}]},{"Type":4,"FreeSeats":30,"Seats":{"SeatsUndef":null,"SeatsDn":1,"SeatsUp":29,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":0},"Tariffs":[{"ClassService":{"Type":"2К","Value":"Купейный вагон с УКВ и ЭЧТК."},"ClassServiceInt":null,"AddSigns":null,"TariffValue":5454,"TariffValue2":null,"TariffService":250,"Carrier":[[[]]],"Owner":{"Type":"КЗХ/КЗХ","Country":{"Code":"27","Name":"КАЗАХСТАН"},"Railway":{"Code":"68","Name":"КАЗАХСТАНСКАЯ"}},"SaleLimitation":0,"ElRegPossible":{"UK":false,"AKP":false},"Seats":{"SeatsUndef":null,"SeatsDn":1,"SeatsUp":29,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":0}}]}]}]}]},
+  "GetTrain":{"ShowWithoutPlaces":false,"ForwardDirectionDto":{"Type":0,"PassRoute":{"From":"ДЖАМБУЛ#2700710#17-01-18 06:02:00#ДЖАМБУЛ","To":"КЗЫЛ-ОРДА#2704999# #КЗЫЛ-ОРДА"},"Trains":[{"Date":"2018-01-17T00:00:00","Train":{"Number":"049Т","Number2":"049Т","Type":"СКРСТ","Route":["АЛМА АТА 2","УРАЛЬСК"],"Departure":{"Time":"06:02:00","Stop":"00:10:00"},"Arrival":{"Date":"2018-01-17T00:00:00","Time":"16:24:00","Stop":"00:10:00"},"TimeInWay":"10:22:00","DepTrain":null,"Distance":0,"ElRegPossible":true,"Brand":null,"FirmName":null,"Comments":[],"Cars":[{"Type":"Люкс","TrainLetter":"Т","CarServiceType":"Т Люкс","ClassService":{"Type":"1Д","Value":"Класс \"Турист\". Вагон СВ с УКВ."},"ClassServiceInt":null,"AddSigns":null,"Tariff":6789.0,"Tariff2":null,"TariffService":250.0,"Carrier":{"Name":"КТЖ"},"Owner":{"Type":"КЗХ/КЗХ","Country":{"Code":"27","Name":"КАЗАХСТАН"},"Railway":{"Code":"68","Name":"КАЗАХСТАНСКАЯ"}},"SaleLimitation":0,"Cars":[{"Number":"01","ElRegPossible":{"UK":false,"AKP":false},"Station":null,"NonSmoking":false,"DesignCar":[],"Seats":{"SeatsUndef":null,"SeatsDn":5,"SeatsUp":6,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":5},"SeatsSexDto":null,"TypePlaces":null,"Places":["001","002","004","005","006","007","008","009","010","011","012"],"SpecialCarDetails":[1,14]},{"Number":"02","ElRegPossible":{"UK":false,"AKP":false},"Station":null,"NonSmoking":false,"DesignCar":[],"Seats":{"SeatsUndef":null,"SeatsDn":1,"SeatsUp":3,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":1},"SeatsSexDto":null,"TypePlaces":null,"Places":["008","009","010","012"],"SpecialCarDetails":[1,14]}]},{"Type":"Люкс","TrainLetter":"Т","CarServiceType":"Т Люкс","ClassService":{"Type":"1Л","Value":"Вагон СВ с УКВ."},"ClassServiceInt":null,"AddSigns":null,"Tariff":7564.0,"Tariff2":null,"TariffService":250.0,"Carrier":{"Name":"КТЖ"},"Owner":{"Type":"КЗХ/КЗХ","Country":{"Code":"27","Name":"КАЗАХСТАН"},"Railway":{"Code":"68","Name":"КАЗАХСТАНСКАЯ"}},"SaleLimitation":0,"Cars":[{"Number":"03","ElRegPossible":{"UK":false,"AKP":false},"Station":null,"NonSmoking":false,"DesignCar":[],"Seats":{"SeatsUndef":null,"SeatsDn":4,"SeatsUp":5,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":4},"SeatsSexDto":null,"TypePlaces":null,"Places":["001","002","003","004","006","007","008","009","010"],"SpecialCarDetails":[1,15]}]},{"Type":"Купе","TrainLetter":"Т","CarServiceType":"Т Купе","ClassService":{"Type":"2Д","Value":"Класс \"Турист\". Купейный вагон."},"ClassServiceInt":null,"AddSigns":null,"Tariff":5655.0,"Tariff2":null,"TariffService":250.0,"Carrier":{"Name":"КТЖ"},"Owner":{"Type":"КЗХ/КЗХ","Country":{"Code":"27","Name":"КАЗАХСТАН"},"Railway":{"Code":"68","Name":"КАЗАХСТАНСКАЯ"}},"SaleLimitation":0,"Cars":[{"Number":"05","ElRegPossible":{"UK":false,"AKP":false},"Station":null,"NonSmoking":false,"DesignCar":[],"Seats":{"SeatsUndef":null,"SeatsDn":1,"SeatsUp":1,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":0},"SeatsSexDto":null,"TypePlaces":null,"Places":["009","012"],"SpecialCarDetails":[1,12]},{"Number":"06","ElRegPossible":{"UK":false,"AKP":false},"Station":null,"NonSmoking":false,"DesignCar":[],"Seats":{"SeatsUndef":null,"SeatsDn":1,"SeatsUp":0,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":0},"SeatsSexDto":null,"TypePlaces":null,"Places":["009"],"SpecialCarDetails":[1,12]},{"Number":"17","ElRegPossible":{"UK":false,"AKP":false},"Station":null,"NonSmoking":false,"DesignCar":[],"Seats":{"SeatsUndef":null,"SeatsDn":0,"SeatsUp":1,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":0},"SeatsSexDto":null,"TypePlaces":null,"Places":["012"],"SpecialCarDetails":[1,12]},{"Number":"18","ElRegPossible":{"UK":false,"AKP":false},"Station":null,"NonSmoking":false,"DesignCar":[],"Seats":{"SeatsUndef":null,"SeatsDn":2,"SeatsUp":5,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":1},"SeatsSexDto":null,"TypePlaces":null,"Places":["010","012","013","014","015","016","018"],"SpecialCarDetails":[1,12]},{"Number":"19","ElRegPossible":{"UK":false,"AKP":false},"Station":null,"NonSmoking":false,"DesignCar":[],"Seats":{"SeatsUndef":null,"SeatsDn":5,"SeatsUp":7,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":2},"SeatsSexDto":null,"TypePlaces":null,"Places":["001","002","003","004","007","008","010","012","013","014","015","016"],"SpecialCarDetails":[1,12]},{"Number":"20","ElRegPossible":{"UK":false,"AKP":false},"Station":null,"NonSmoking":false,"DesignCar":[],"Seats":{"SeatsUndef":null,"SeatsDn":8,"SeatsUp":8,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":4},"SeatsSexDto":null,"TypePlaces":null,"Places":["001","002","003","004","005","006","007","008","009","010","011","012","013","014","015","016"],"SpecialCarDetails":[1,12]},{"Number":"21","ElRegPossible":{"UK":false,"AKP":false},"Station":null,"NonSmoking":false,"DesignCar":[],"Seats":{"SeatsUndef":null,"SeatsDn":8,"SeatsUp":8,"SeatsLateralDn":null,"SeatsLateralUp":null,"FreeComp":4},"SeatsSexDto":null,"TypePlaces":null,"Places":["001","002","003","004","005","006","007","008","009","010","011","012","013","014","015","016"],"SpecialCarDetails":[1,12]}]}]}}]},"BackwardDirectionDto":null},
+  "BookingInfo":{"booking":{"Order":{"Id":17152465,"ExpressID":"73121246570850","CreateDate":"\/Date(1491111720000)\/","PaymentType":0},"Departure":{"Train":"328ЦА","Date":"\/Date(1493851500000)\/","Station":"АСТАНА","StationCode":"2708000"},"Arrival":{"Train":"328Ц","Date":"\/Date(1493868180000)\/","Station":"КАРАГАНД П","StationCode":"2708950"},"Carrier":{"Code":null,"Inn":"СВ.СЕРИЯ62001 N0017019","Name":"ТОО ТУРКСИБ АСТАНА"},"Car":{"Number":"01","Type":1,"ClassService":"3О","AddSigns":null,"CarrierName":"КЗХ БИН091040010015","OwnerType":"КЗХ"},"SeatsCount":2,"Tickets":[{"Number":"1","TicketId":24862465,"ID":"29442570","ExpressID":"73121246570850","Tariff":769,"TariffNDS":82,"TariffBP":769,"TariffB":578,"TariffP":191,"TariffInsurance":0,"TariffService":0,"TariffServiceNDS":0,"TariffPaymentTotal":769,"TariffTotal":769,"TariffType":0,"PassCount":0,"Seats":["013"],"SeatsType":"System.String","D5":false,"Passengers":[{"Doc":"УЛ123456789","Name":"ЫФВА=ВАЫ=ВАЫ"}],"TariffKtj":0,"TariffDealer":0,"Comission":0,"NoBedding":true,"TariffWithoutService":769,"TariffPWithoutService":191,"TariffNDSWithoutServiceNDS":82},{"Number":"2","TicketId":24862466,"ID":"29442571","ExpressID":"73121246570861","Tariff":769,"TariffNDS":82,"TariffBP":769,"TariffB":578,"TariffP":191,"TariffInsurance":0,"TariffService":0,"TariffServiceNDS":0,"TariffPaymentTotal":769,"TariffTotal":769,"TariffType":0,"PassCount":0,"Seats":["014"],"SeatsType":"System.String","D5":false,"Passengers":[{"Doc":"УЛ123456789","Name":"ВЫА=ЫВ=В"}],"TariffKtj":0,"TariffDealer":0,"Comission":0,"NoBedding":true,"TariffWithoutService":769,"TariffPWithoutService":191,"TariffNDSWithoutServiceNDS":82}],"IIDB":"КЗХ27","SignR":null,"TerminalName":"Интернет сайт ТОО \"ITSB\"","TerminalZNKKM":null,"BrunchBin":"041041008941","PayerInfo":{"Name":"ТОО \"ITSB\" (АйТиЭсБи)","Bin":"110140006292","NDSCertificate":"","IsAgent":true},"OrderFKCID":0},"order":{"payment":1938,"orderstatusdesc":"ВОЗВРАТ","orderstatus":8,"orderid":21883}}
+}

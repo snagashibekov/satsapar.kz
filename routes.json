@@ -1,0 +1,6 @@
+{
+    "/Home/StationAutoComplete?:id": "/StationAutoComplete",
+    "/Home/SearchTrains": "/SearchTrain",
+    "/Home/GetTrain?:id": "/GetTrain",
+    "/Booking/BookingInfo?:id":"/BookingInfo"
+}

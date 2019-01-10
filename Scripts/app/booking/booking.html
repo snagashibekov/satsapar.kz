@@ -1,0 +1,196 @@
+<div class="close-page">
+    <a class="btn" ng-click="vm.close()">
+        <i></i>
+    </a>
+</div>
+<div ng-if="vm.Order" >    
+    <div class="innercontainer" ng-init="bo=vm.Order.booking">
+        <link rel="stylesheet" href="Scripts/app/booking/booking.css">
+        <div id="searchbox" ng-init="order=vm.Order.order">            
+            <div class="ticket-info">
+                <div class="row middle-title odd-row">
+                    <div class="col-md-12 col-xs-12">
+                        <h2>ИНФОРМАЦИЯ О БИЛЕТЕ</h2>
+                    </div>
+                </div>
+                <div class="row payment-row ta-center">
+                    <div class="col-md-6 col-xs-6 odd-col">
+                        Маршрут:
+                    </div>
+                    <div class="col-md-6 col-xs-6 even-col">
+                        <span ng-bind="bo.Departure.Station" ></span> - <span ng-bind="bo.Arrival.Station" ></span>
+                    </div>
+                </div>
+                <div class="row payment-row odd-row ta-center">
+                    <div class="col-md-6 col-xs-6 odd-col">
+                        Статус заказа:
+                    </div>
+                    <div class="col-md-6 col-xs-6 even-col" >
+                            {{order.orderstatusdesc}}
+                    </div>
+                </div>
+                <div class="row payment-row ta-center">
+                    <div class="col-md-6 col-xs-6 odd-col">
+                        Дата и время отправления:
+                    </div>
+                    <div class="col-md-6 col-xs-6 even-col" >
+                        {{ bo.Departure.Date | momentFormat :'lll'}}
+                    </div>
+                </div>
+                <div class="row payment-row odd-row ta-center">
+                    <div class="col-md-6 col-xs-6 odd-col">
+                        Дата и время прибытия:
+                    </div>
+                    <div class="col-md-6 col-xs-6 even-col">
+                        <span >{{ bo.Arrival.Date | momentFormat :'lll'}}</span>
+                    </div>
+                </div>
+                <div class="row payment-row ta-center">
+                    <div class="col-md-6 col-xs-6 odd-col">
+                        Номер поезда:
+                    </div>
+                    <div class="col-md-6 col-xs-6 even-col" ng-bind="bo.Departure.Train">
+                    </div>
+                </div>
+                <div class="row payment-row odd-row ta-center">
+                    <div class="col-md-6 col-xs-6 odd-col">
+                        Номер вагона:
+                    </div>
+                    <div class="col-md-6 col-xs-6 even-col">
+                        <span ng-bind="bo.Car.Number"></span>
+                    </div>
+                </div>
+                <div class="row payment-row ta-center">
+                    <div class="col-md-6 col-xs-6 odd-col">
+                        Места:
+                    </div>
+                    <div class="col-md-6 col-xs-6 even-col" >
+                        <span ng-repeat-start="t in bo.Tickets"></span>
+                        <span ng-repeat-end ng-repeat="seat in t.Seats">{{seat}} {{($parent.$index<(bo.Tickets.length-1) || $index<(t.Seats.length-1) )?",":""}}</span>
+                    </div>
+                </div>
+                <div class="row payment-row odd-row ta-center">
+                    <div class="col-md-6 col-xs-6 odd-col">
+                        Тип вагона:
+                    </div>
+                    <div class="col-md-6 col-xs-6 even-col">
+                        <span ng-bind="vm.getType(bo.Car.Type)"></span>
+                    </div>
+                </div>
+                <div class="row payment-row ta-center">
+                    <div class="col-md-6 col-xs-6 odd-col">
+                        Стоимость:
+                    </div>
+                    <div class="col-md-6 col-xs-6 even-col">
+                        <span ng-bind="order.payment"></span> <span> тенге</span>
+                    </div>
+                </div>
+                <div class="row payment-row odd-row ta-center">
+                    <div class="col-md-6 col-xs-6 odd-col">
+                        Номер заказа
+                    </div>
+                    <div class="col-md-6 col-xs-6 even-col">
+                        <span ng-bind="order.orderid"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row middle-title odd-row ta-center">
+                <div class="col-md-12 col-xs-12">
+                    <span>ПЕРСОНАЛЬНЫЕ ДАННЫЕ ПАССАЖИРОВ</span>
+                </div>
+            </div>
+            <div id="oplata-block" data-bind="with: orderdetails"
+                 class="row" style="height:auto;">                                
+                <div class="col-md-6 col-sm-8 col-xs-12" ng-repeat="t in bo.Tickets">
+                    <div class="pass-info" >
+                        <span class="pass-info__title">ФИО</span>
+                        <span class="pass-info__content" ng-bind="t.Passengers[0].Name.split('=').join(' ')"></span>
+                        <span class="pass-info__title">Идентификатор заказа</span>
+                        <span class="pass-info__content" ng-bind="t.ExpressID"></span>
+                        <span class="pass-info__title">Тариф без комиссий</span>
+                        <span class="pass-info__content" ng-bind="t.TariffTotal"> тг</span>
+                        <span class="pass-info__content">
+                            <label for="needReturn">
+                                <input name="needReturn" type="checkbox" ng-model="t.isNeedReturn" /> Сделать возврат
+                            </label>
+                        </span>
+                    </div>
+                </div>                
+            </div>
+            <div class="row order-ctrl-btns ta-center">
+                <button class="btn btn-primary btn--large" data-bind="click:$root.refresh.bind($root)">Обновить</button>
+                <button class="btn btn-primary btn--large" data-bind="click:$root.print">Распечатать билет</button>
+                <button class="btn btn-danger btn--large"  data-bind="click: $root.showModalDialog">Возврат</button>
+            </div>
+            <div class="row" id="charity"></div>
+        </div>
+    </div>        
+    <div id="ReturnDiv" class="modal fade" tabindex="-1" role="dialog" data-bind="modal:showDialog">
+        <div class="modal-dialog" data-bind="with:returnDetails">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">
+                            На эл.почту отправлен код для подтверждения возврата.
+                        </h4>
+                    </div>
+                    <div class="return">
+                        <div class="return__block">
+                            <div class="return__item">
+                                <span><b>Введите код для подтверждения:</b></span>
+                            </div>
+                            <div class="return__item">
+                                <input class="form-control" data-bind="value: authorizationCode" placeholder="Например: 2334" required />
+                            </div>
+                        </div>
+                        <div class="return__block">
+                            <div class="return__item">
+                                <span><b>Введите число с&nbsp;картинки:</b></span>
+                            </div>
+                            <div class="return__item">
+                                <img src="/Image/GetImage" />
+                                <input type="text" name="captchaVal" id="captchaVal" data-bind="value:captchaVal" class="form-control " required />
+                            </div>
+                        </div>
+                        <div class="return__block">
+                            <div class="return__item"></div>
+                            <div class="return__item">
+                                <input type="submit" class="btn btn-danger" value="Сделать Возврат" data-bind="click: $root.returnTickets.bind($root)" style="margin-left:5px" />
+                            </div>
+                            <div class="return__item"></div>
+                        </div>
+                    </div>
+                    <!-- <table style="margin:30px;">
+                        <tr>
+                            <td>
+                                    <b>Введите код:</b>
+                            </td>
+                            <td>
+                                <input data-bind="value: authorizationCode" required /><br />
+                            </td>
+                            <td align="center">  </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label><span><b>Введите число с&nbsp;картинки*:</b></span></label>
+                            </td>
+                            <td>
+                                <img src="/Image/GetImage" />
+                            </td>
+                            <td>
+                                <input type="text" name="captchaVal" id="captchaVal" data-bind="value:captchaVal" class="form-control " required />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <br />
+                                <input type="submit" value="Сделать Возврат" data-bind="click: $root.returnTickets.bind($root)" style="margin-left:5px" />
+                            </td>
+                        </tr>
+                    </table> -->
+                </div>
+            </div>
+        </div>
+        <link href="../css/orderinfo.css" rel="stylesheet" />
+    </div>

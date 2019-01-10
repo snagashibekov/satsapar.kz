@@ -1,0 +1,113 @@
+@font-face {
+    font-family: ladin;
+    src: url('./fonts/JakobKazakh  Normal.ttf');
+  }
+  @font-face {
+    font-family: icon-font;
+    src: url('/css/fonts/icons/mn.ttf');
+  }  
+body{    
+    font-family: sans-serif;
+    background-color: #eeeeee;
+    font-style: normal;
+}
+#main-body{
+    overflow: hidden;
+}
+.logo{    
+    padding:0px 7px 5px 20px;
+    color: #2577e3;
+}
+#top-header{
+    padding: 8px 0px 8px 0px ;
+    background-color: #ffffff;
+    border-bottom:1px solid #dddddd;
+    display: flex;
+    overflow: hidden;
+}
+.slogan{
+    font-family: ladin; 
+    float: right;
+    border-left: 1px solid #dddddd;
+    height: 23px;            
+    flex-grow: 100;        
+    padding: 0px 20px 0px 0px;
+    text-align: right;    
+    font-style: italic;
+}
+.btn-primary {
+    background-color: #ff9914 !important; 
+    background-image: linear-gradient(90deg,#ffb300 7%,#f57c00 90%);}
+
+#splash-page {
+    z-index: 99999 !important;
+}
+
+#splash-page .bar {
+    width: 100%;
+}
+
+.page-splash {
+    z-index: 99999 !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #424040;
+    opacity: .9;
+    pointer-events: auto;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: opacity 0.3s linear;
+    -moz-transition: opacity 0.3s linear;
+    -o-transition: opacity 0.3s linear;
+    transition: opacity 0.3s linear;
+}
+
+.page-splash-message {
+    text-align: center;
+    margin: 20% auto 0 auto;
+    font-size: 400%;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    -webkit-text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.15);
+    text-transform: uppercase;
+    text-decoration: none;
+    /*color: #F58A00;*/
+    color: #efb73e;
+    padding: 0;
+}
+
+.arrow-right-icon::before{
+    Content:"\e804";    
+    color: #000000;
+    
+  }
+  .train-icon,.arrow-right-icon{
+    font-family: icon-font;
+    font-style: normal;
+  }
+ .train-icon::before{
+    content: "\e800"; 
+}
+
+.close-page{
+    position: relative;
+    font-family:icon-font;
+    border: 1px solid #000000;
+    border-width: 0px 0px 1px;
+    width: 100%;  
+    padding: 0px 10px;
+    z-index: 100;
+  }
+.close-page i:before{
+    font-style: normal;
+    font-size: 18px;
+    content: "\e807"
+  }

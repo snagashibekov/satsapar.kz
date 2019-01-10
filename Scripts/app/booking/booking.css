@@ -1,0 +1,46 @@
+.row{
+    margin:0px 10px;
+}
+.middle-title{
+    text-align: center;
+    margin:10px;
+}
+body{
+    background-color: #fff;
+}
+
+.payment-row > div {
+    border:solid 1px #000000;
+    padding: 3px 5px;
+    
+}
+.odd-col{
+    border-width: 1px 0px 0px 1px !important;
+}
+.even-col{
+    border-width: 1px 1px 0px !important;
+    height: auto;
+}
+
+.ticket-info .payment-row:last-child{
+    border-width: 0px 0px 1px !important;
+    border-style: solid;
+    border-color: #000000;
+}
+.pass-info {
+	border: 1px solid rgba(84, 156, 160, 0.75);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 5px;
+}
+.pass-info span{
+    display: block;
+    margin-bottom:10px;
+}
+
+.pass-info__title{
+	color:#aaa;
+}
+.pass-info__content{
+	font-weight: bold;
+}

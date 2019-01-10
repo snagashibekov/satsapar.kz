@@ -1,0 +1,1111 @@
+
+ul {
+    list-style-type: none;   
+    text-align: center; 
+}
+ul > li {
+    display: inline;
+    
+}
+#trains{
+    /* background-color: #ffffff; */
+    
+    width: 100%;
+    padding:10px 0px 25px;
+}
+div a.active{
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+}
+body{
+    background-color: #fff;
+}
+.date-nav.row {
+    background-color: #fff;
+    color: #1899F2;
+}
+.date-nav div.active{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    
+}
+
+.train:hover,.train:visited,.train:active{
+    border-color: #000000;
+    cursor: pointer;
+}
+.train{
+    display: block;
+    border-style: solid;
+    border-color:rgb(228,228,228);
+    border-width: 1px;
+    margin:20px 10px 5px;
+}
+.train-fields {
+    border-bottom: 1px solid rgb(228,228,228);;
+}
+.train-fields div span{
+    display: block;
+}
+.line{
+    border-width: 0px 0px 1px;
+    width: 105px;
+    border-style:solid;
+    padding-top:35px;
+}
+.trip-time-field{
+    padding-top:5px;
+    position: relative;
+}
+.trip-time-field .arrow-right-icon{
+	position: absolute;
+	margin-top: -11px;
+	margin-left: 100px;
+	font-style: normal;
+}
+.trip-time-field .travel-time{    
+        position: absolute;
+        margin-top: -11px;
+        margin-left: 25px;
+        z-index: 1000;
+        background-color: #ffffff;    
+}
+.time{
+    font-size: 30px;
+    font-weight: bold;
+}
+.train  .row{
+    margin:0px;
+
+}
+.col-xs-4,.col-xs-8{
+    padding-left:0px;
+    padding-right: 0px;
+}
+.row div:first-child{
+    padding-left: 10px;
+}
+.train-icon{
+    color:  #2577e3;
+    display: block;
+    font-size: 55px;
+    line-height: 15px;
+    margin-top: 15px;
+}
+.train >div:nth-child(2) >div:nth-child(2){
+    padding-top:11px;
+}
+.train >div:nth-child(3){
+    padding: 10px 0px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.train >div:nth-child(3) a span{
+    display: block;
+}
+.train >div:nth-child(3) div{
+    padding-right: 5px;
+    padding-top:5px;
+}
+.btn-wagon{
+    border:1px solid #000000;
+    width: 100%;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+.btn-wagon.active{
+    background-color: #ff9914 !important; 
+    background-image: linear-gradient(90deg,#ffb300 7%,#f57c00 90%);
+    color:#ffffff;
+}
+@media only screen and (max-width:500px){
+    .trip-time-field .arrow-right-icon{        
+        margin-left: 83px;        
+    }
+    .trip-time-field .travel-time{    
+            margin-left: 18px;
+    }
+    .line{        
+        width: 88px;
+    }
+}
+
+@media  screen and (max-width: 800px) {
+	.wagon-picture > span {
+		margin: 5px 0px 0px;
+		font-size: 7px;
+	}
+	.wagon-picture .bottom-place{
+		margin: -5px 0px 0px;
+	}
+     .order-generate-div {
+         padding:10px !important;
+     }
+     #trainscontainer{
+         padding: 0px !important;
+     }
+    .from-station-box {
+        padding-bottom: 35px;
+    }
+}
+#trainscontainer{
+	position: relative;
+	margin-top: 40px;
+}
+
+.btn-place-selection{
+	  float: right;
+	  border-radius: 2px;
+	  background-color: rgb(75, 121, 127);
+	  color: rgb(255, 255, 255);
+	  font-size: 14px;
+	  line-height: 1;
+	  padding: 5px 10px 1px;
+	  border-style: none;
+	  position: relative;
+	  right: 20%;
+}
+.placesfree{
+  display: block;
+  padding: 6px 0px 0px;
+  font-size: 14px;
+
+}
+
+
+
+
+
+.wagonprice{
+  display: table-cell;
+  font-size: 14px;
+  color: rgb(46, 47, 103);
+  padding: 15px 10px 0px ;
+}
+.trainselected{
+	background-color: rgb(235, 242, 255);
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
+	position: relative;
+	left: 1px;
+}
+.wagonsinfo{
+	text-align: center;
+}
+.wagonsinfo,
+.place-desc-div,
+.hint-div{
+	border-color: rgb(196, 196, 196);
+	border-style: solid;
+	border-width: 0px 0px 1px;
+}
+
+.place-desc-div {
+	padding: 20px 10px;
+}
+
+.wagonsinfo >div {
+	border-color: rgba(196, 196, 196, 0.4);
+	border-style: solid;
+	border-width: 0px 1px 0px 0px;
+}
+
+.wagontype {
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 20px;
+	font-size: 22px;
+}
+
+@media(max-width: 767px) {
+	.wagontype {
+		margin-top: 0;
+		font-size: 18px;
+	}
+
+	.kztprice,
+	.free-total-places {
+		font-size: 16px;
+	}
+
+	.place-description {
+		display: block;
+		text-align: center;
+		margin-bottom: 5px;
+	}
+
+}
+
+.free-total-places {
+	display: block;
+	font-size: 18px;
+}
+
+
+
+input[type=radio] {
+    cursor: pointer;
+}
+
+
+.radios label {
+    cursor: pointer;
+    font-size: 14px;
+}
+.radios{
+    display: inline-flex;
+    margin-left: 15px;
+}
+
+
+
+.radios  label:hover {  
+    border:1px solid #000000;
+}
+
+
+
+
+label.active  {
+    
+    border:1px solid #000000;
+}
+
+
+.wagon-picture {
+  background-color: rgb(206, 213, 226);
+  padding: 20px 0;
+  position: relative;
+	overflow: auto;
+}
+.place-1{
+	position: absolute;
+	top:42.5%;
+	left: 17.5%;
+}
+.place-2{
+	position: absolute;
+	top:22.5%;
+	left: 17.5%;
+}
+.place-3{
+	position: absolute;
+	top:42.5%;
+	left: 22.7%;
+}
+.place-4{
+	position: absolute;
+	top:22.5%;
+	left: 22.7%;
+}
+.place-5{
+ position: absolute;
+ top:42.5%;
+ left: 25.1%;
+}
+.place-6{
+ position: absolute;
+ top:22.5%;
+ left: 25.1%;
+}
+.place-7{
+ position: absolute;
+ top:42.5%;
+ left: 30.3%;
+}
+.place-8{
+ position: absolute;
+ top:22.5%;
+ left: 30.3%;
+}
+.place-9{
+ position: absolute;
+ top:42.5%;
+ left: 32.9%;
+}
+.place-10{
+ position: absolute;
+ top:22.5%;
+ left: 32.9%;
+}
+.place-11{
+ position: absolute;
+ top:42.5%;
+ left: 38.1%;
+}
+.place-12{
+ position: absolute;
+ top:22.5%;
+ left: 38.1%;
+}
+.place-13{
+ position: absolute;
+ top:42.5%;
+ left: 40.8%;
+}
+.place-14{
+ position: absolute;
+ top:22.5%;
+ left: 40.8%;
+}
+.place-15{
+ position: absolute;
+ top:42.5%;
+ left: 46.0%;
+}
+.place-16{
+ position: absolute;
+ top:22.5%;
+ left: 46.0%;
+}
+.place-17{
+ position: absolute;
+ top:42.5%;
+ left: 48.7%;
+}
+.place-18{
+ position: absolute;
+ top:22.5%;
+ left: 48.7%;
+}
+.place-19{
+ position: absolute;
+ top:42.5%;
+ left: 53.9%;
+}
+.place-20{
+ position: absolute;
+ top:22.5%;
+ left: 53.9%;
+}
+.place-21{
+ position: absolute;
+ top:42.5%;
+ left: 56.6%;
+}
+.place-22{
+ position: absolute;
+ top:22.5%;
+ left: 56.6%;
+}
+.place-23{
+ position: absolute;
+ top:42.5%;
+ left: 61.6%;
+}
+.place-24{
+ position: absolute;
+ top:22.5%;
+ left: 61.6%;
+}
+.place-25{
+ position: absolute;
+ top:42.5%;
+ left: 64.4%;
+}
+.place-26{
+ position: absolute;
+ top:22.5%;
+ left: 64.4%;
+}
+.place-27{
+ position: absolute;
+ top:42.5%;
+ left: 69.5%;
+}
+.place-28{
+ position: absolute;
+ top:22.5%;
+ left: 69.5%;
+}
+.place-29{
+ position: absolute;
+ top:42.5%;
+ left: 72.2%;
+}
+.place-30{
+ position: absolute;
+ top:22.5%;
+ left: 72.2%;
+}
+.place-31{
+ position: absolute;
+ top:42.5%;
+ left: 77.3%;
+}
+.place-32{
+ position: absolute;
+ top:22.5%;
+ left: 77.3%;
+}
+.place-33{
+ position: absolute;
+ top:42.5%;
+ left: 80.0%;
+}
+.place-34{
+ position: absolute;
+ top:22.5%;
+ left: 80.0%;
+}
+.place-35{
+ position: absolute;
+ top:42.5%;
+ left: 85.1%;
+}
+.place-36{
+ position: absolute;
+ top:22.5%;
+ left: 85.1%;
+}
+.place-54{
+ position: absolute;
+ top:70.5%;
+ left: 18.2%;
+}
+.place-53{
+ position: absolute;
+ top:70.5%;
+ left: 22.7%;
+}
+.place-52{
+ position: absolute;
+ top:70.5%;
+ left: 26.2%;
+}
+.place-51{
+ position: absolute;
+ top:70.5%;
+ left: 30.7%;
+}
+.place-50{
+ position: absolute;
+ top:70.5%;
+ left: 34.2%;
+}
+.place-49{
+ position: absolute;
+ top:70.5%;
+ left: 38.1%;
+}
+.place-48{
+ position: absolute;
+ top:70.5%;
+ left: 42.2%;
+}
+.place-47{
+ position: absolute;
+ top:70.5%;
+ left: 46.1%;
+}
+.place-46{
+ position: absolute;
+ top:70.5%;
+ left: 50.2%;
+}
+.place-45{
+ position: absolute;
+ top:70.5%;
+ left: 54.1%;
+}
+.place-44{
+ position: absolute;
+ top:70.5%;
+ left: 58.2%;
+}
+.place-43{
+ position: absolute;
+ top:70.5%;
+ left: 62.1%;
+}
+.place-42{
+ position: absolute;
+ top:70.5%;
+ left: 66%;
+}
+.place-41{
+ position: absolute;
+ top:70.5%;
+ left: 69.7%;
+}
+.place-40{
+ position: absolute;
+ top:70.5%;
+ left: 73.8%;
+}
+.place-39{
+ position: absolute;
+ top:70.5%;
+ left: 77.5%;
+}
+.place-38{
+ position: absolute;
+ top:70.5%;
+ left: 81.6%;
+}
+.place-37{
+ position: absolute;
+ top:70.5%;
+ left: 85.2%;
+}
+.sold-place,
+.free-place{
+	display: block;
+	color: #CB4F4F;
+	font-size: 12px;
+  height: 25px;
+  background-color: rgb(75, 121, 127);
+  width: 21px;
+  text-align: center;
+}
+.wagon-image{
+	width: 100%;
+}
+.available-places-color,
+.selected-places-color,
+.sold-places-color {
+	position: relative;
+	top:2px;
+	border-radius: 2px;
+	width: 13px;
+  height: 13px;
+  display: inline-block;
+
+}
+.selected-places-color{
+    background-color: #5de078;
+}
+.available-places-color{
+    background-color: #c4c4c4;
+
+}
+.sold-places-color{
+  background-color: #cb4f4f;
+}
+.place-description{
+  font-size: 14px;
+  /*font-family: Verdana, Arial, sans-serif;*/
+  color: rgb(54, 54, 54);
+}
+
+.available-places-text,
+.selected-places-text,
+.sold-places-text{
+	color: #2E2F67;
+	font-size: 14px;
+	/*font-family: Verdana, Arial, sans-serif;*/
+	margin:0px 13px 0px 0px;
+}
+
+.places-hint {
+	color: rgb(71, 118, 126);
+}
+
+@media(max-width: 767px) {
+	.places-hint {
+		font-size: 13px;
+	}
+
+	.order-generate {
+		font-size: 14px;
+	}
+}
+
+.places-hint-1{
+	display: block;
+	/*font-family: Verdana, Arial, sans-serif;*/
+}
+
+.places-hint-1 span {
+	display: inline-block;
+	background-color: rgb(71, 118, 126);
+	color: white;
+	padding: 2px 5px;
+	animation: appear 300ms ease-in-out forwards;
+	-webkit-animation: appear 300ms ease-in-out forwards;
+}
+
+@-webkit-keyframes appear {
+	from {
+		transform: scale(2);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+
+@keyframes appear {
+	from {
+		transform: scale(2);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+
+.hint-div{
+	padding: 10px;
+}
+.train{
+	border: 1px solid rgb(228,228,228);
+	margin-bottom: 40px;
+	transition: border 300ms;
+	overflow: hidden;
+}
+
+.train:hover {
+	border: 1px solid rgb(46, 47, 103);
+}
+
+.train:active {
+	border: 1px solid rgb(46, 47, 103);
+}
+
+.main-filter{
+    padding:10px 0px 0px 0px;
+		margin-bottom: 40px;
+
+}
+.main-filter div{
+    display:inline-block;
+}
+#searchbox > .main-filter {
+    background-color:#ededed;
+}
+.departure-filter {
+    border-style: solid;
+    border-width: 0px 3px 0px 0px;
+    border-color: #ffffff;
+    display: inline-block;
+    padding: 15px 0px 0px;
+}
+
+#morning-filter,
+#day-filter,
+#evenning-filter {
+    margin-left:-4px;
+}
+
+.departure-filter > div > div {
+    float:left;
+}
+.arrival-filter {
+    padding:0px 0px 0px 20px;
+}
+
+.train-fields,
+.row-places {
+   border-color: rgb(228, 228, 228);
+	 border-style: solid;
+	 border-width: 1px 0px;
+}
+
+.train-fields {
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border-bottom: none;
+}
+
+.train .train-fields:first-child{
+    border-top: none;
+}
+@media(max-width: 770px) {
+	.train-fields {
+		padding: 5px 0;
+		font-size: 14px;
+	}
+}
+
+
+@media(max-width: 767px) {
+	.train-number-field {
+		font-size: 13px;
+		padding: 0;
+	}
+
+	.place-field {
+		padding: 5px;
+	}
+}
+
+.field > div {
+    display:inline-block;
+}
+.place-field a {
+    display:inline-block;
+}
+.place-field {
+		padding: 15px;
+}
+
+.wagon-in-rect {
+  border: solid;
+  border-width: 1px;
+	padding: 1px 2px;
+}
+
+.placesfreediv{
+    text-align:center;
+}
+
+
+.rounded-sym {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    background: #ccc;
+    border-radius: 50%;
+}
+.rounded-sym-ended {
+    width: 10px;
+    height: 10px;
+    left:1px;
+    position: absolute;
+    background: #ffffff;
+    border-radius: 50%;
+    border-style:solid;
+    border-color:#ccc;
+    bottom:0;
+}
+
+
+
+.selected-cars{
+    padding: 0px 10px;
+    
+}
+
+.selected-cars > div:first-child{
+    padding-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color:rgb(228,228,228);
+}
+.order-generate{
+	padding: 10px 44px;
+	width: auto;
+}
+.order-generate-div{
+	padding: 10px;
+	text-align: center;
+}
+/* wagon description */
+
+
+.wagon {
+    position: relative;
+    width: 960px;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #34495e;
+    border-radius: 5px;
+    margin: auto;
+    background-color: #eee; }
+    .wagon::before, .wagon::after {
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%);
+      content: " ";
+      display: block;
+      height: 70px;
+      width: 20px;
+      border: 2px solid #34495e;
+      border-radius: 5px;
+      background-color: inherit; }
+    .wagon::before {
+      left: -20px;
+      border-right: none; }
+    .wagon::after {
+      right: -20px;
+      border-left: none; }
+  
+  .wagon__tambur,
+  .wagon__bath,
+  .wagon__provodnik,
+  .wagon__places {
+    width: 40px;
+    -webkit-flex-basis: 20px;
+    -ms-flex-preferred-size: 20px;
+    flex-basis: 20px;
+    height: 150px;
+    border: 1px solid #34495e; }
+  
+  .wagon__provodnik,
+  .wagon__bath {
+    position: relative; }
+    .wagon__provodnik::after, .wagon__provodnik::before,
+    .wagon__bath::after,
+    .wagon__bath::before {
+      position: absolute;
+      top: 60%;
+      content: " ";
+      display: block;
+      width: 15px;
+      height: 2px;
+      background-color: #34495e; }
+    .wagon__provodnik::before,
+    .wagon__bath::before {
+      left: 0; }
+    .wagon__provodnik::after,
+    .wagon__bath::after {
+      right: 0; }
+  
+  .wagon__places {
+    -webkit-flex-grow: 1;
+    -moz-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  
+  .wagon__places__upper,
+  .wagon__places__corridor,
+  .wagon__places__bottom {
+    -webkit-flex-basis: 20px;
+    -ms-flex-preferred-size: 20px;
+    flex-basis: 20px; }
+  
+  .wagon__places__upper {
+    -webkit-flex-grow: 4;
+    -moz-box-flex: 4;
+    -ms-flex-positive: 4;
+    flex-grow: 4; }
+  
+  .wagon__places__bottom {
+    -webkit-flex-grow: 1;
+    -moz-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1; }
+  
+  .wagon__places__upper,
+  .wagon__places__corridor,
+  .wagon__places__bottom {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex; }
+  
+  .wagon__places__corridor > span {
+    margin: auto; }
+  
+  .talgo .wagon__places__upper,
+  .sv .wagon__places__upper {
+    -webkit-flex-grow: 3;
+    -moz-box-flex: 3;
+    -ms-flex-positive: 3;
+    flex-grow: 3; }
+  
+  .talgo .wagon__places__corridor,
+  .sv .wagon__places__corridor {
+    -webkit-flex-grow: 1;
+    -moz-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1; }
+  
+  .talgo .cell__place,
+  .sv .cell__place {
+    -webkit-flex-basis: 60px;
+    -ms-flex-preferred-size: 60px;
+    flex-basis: 60px; }
+  
+  .coupe .wagon__places__upper {
+    -webkit-flex-grow: 5;
+    -moz-box-flex: 5;
+    -ms-flex-positive: 5;
+    flex-grow: 5; }
+  
+  .coupe .wagon__places__corridor {
+    -webkit-flex-grow: 1;
+    -moz-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1; }
+  
+  .chinese .wagon__places__upper {
+    -webkit-flex-grow: 10;
+    -moz-box-flex: 10;
+    -ms-flex-positive: 10;
+    flex-grow: 10; }
+  
+  .chinese .wagon__places__corridor {
+    -webkit-flex-grow: 2;
+    -moz-box-flex: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2; }
+  
+  .common .wagon__places__bottom .cell {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap; }
+  
+  .common .wagon__places__upper .cell__place:nth-child(odd) {
+    margin-right: 10px; }
+  
+  .plackart .wagon__places__upper .cell__place:nth-child(odd) {
+    margin-right: 10px; }
+  
+  .coupe .wagon__places__upper .cell__place:nth-child(odd) {
+    margin-right: 10px; }
+  
+  .plackart-new .wagon__places__upper .cell__place:nth-child(odd) {
+    margin-right: 5px; }
+  
+  .coupe40 .wagon__places__upper .cell__place:nth-child(odd) {
+    margin-right: 5px; }
+  
+  .wagon__places__bottom .cell {
+    border-top: none; }
+  
+  .talgo .cell__place {
+    -webkit-flex-basis: 70px;
+    -ms-flex-preferred-size: 70px;
+    flex-basis: 70px; }
+    .talgo .cell__place:nth-child(odd) {
+      margin-right: 20px; }
+    .talgo .cell__place > a {
+      padding: 10px 0; }
+  
+  .sv .cell__place {
+    -webkit-flex-basis: 10px;
+    -ms-flex-preferred-size: 10px;
+    flex-basis: 10px; }
+    .sv .cell__place > a {
+      padding: 20px 0; }
+    .sv .cell__place:nth-child(odd) {
+      margin-right: 20px; }
+  
+  .cell {
+    height: 100%;
+    border: 1px solid #34495e;
+    -webkit-flex-basis: 20px;
+    -ms-flex-preferred-size: 20px;
+    flex-basis: 20px;
+    -webkit-flex-grow: 1;
+    -moz-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: none;
+    overflow: hidden; }
+  
+  .cell__place {
+    border: 1px solid #3498db;
+    -webkit-flex-basis: 30px;
+    -ms-flex-preferred-size: 30px;
+    flex-basis: 30px;
+    -webkit-flex-grow: 1;
+    -moz-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    cursor: pointer;
+    -o-transition: all 300ms;
+    -moz-transition: all 300ms;
+    transition: all 300ms; }
+    .cell__place:hover {
+      background-color: #e74c3c; }
+    .cell__place > a {
+      display: inline-block;
+      margin: auto;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      color: #34495e;
+      text-align: center; }
+      .cell__place > a:hover {
+        color: white;
+        background: #444; }
+        .cell__place > a.taken:hover {
+            color: white;
+            background: #e74c3c; }
+    .cell__place > .active {
+      color: white; }
+      .cell__place > .active:hover {
+        background-color: #2ecc71; }
+    .cell__place > .taken {
+      background-color: #e74c3c;
+      color: white; }
+    .cell__place:hover {
+      background-color: #e74c3c; }
+  
+.wagon-picture  .active {
+    background-color: #2ecc71;
+    color: white; }
+    .wagon-picture    .active:hover {
+      background-color: #2ecc71; }
+  
+  label > input {
+    margin-left: -9999px; }
+  
+  .wagon-name {
+    text-align: center; }
+  
+  .title {
+    display: block;
+    -webkit-transform: rotateZ(-90deg);
+    -moz-transform: rotateZ(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotateZ(-90deg);
+    transform: rotateZ(-90deg);
+    margin-top: 50px; }
+  
+  .sitting .cell {
+    border: none; }
+    .sitting .cell > .cell__place {
+      margin-right: 10px; }
+  
+  .disabled {
+    background-color: #3498db; }
+    .disabled:hover {
+      background-color: #3498db; }
+  
+  .sitting--2 .wagon__tambur,
+  .sitting--2 .wagon__bath,
+  .sitting--2 .wagon__provodnik,
+  .sitting--2 .wagon__places {
+    height: 180px; }
+  
+  .sitting--2 .cell .cell__place {
+    margin-right: 5px;
+    -webkit-flex-basis: 20px;
+    -ms-flex-preferred-size: 20px;
+    flex-basis: 20px; }
+  
+  .chinese .cell__place {
+    -webkit-flex-basis: 20px;
+    -ms-flex-preferred-size: 20px;
+    flex-basis: 20px; }
+  .travel-time-label{
+      margin:13px  0px 0px;
+  }

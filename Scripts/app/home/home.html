@@ -1,0 +1,90 @@
+<script type="text/ng-template" id="customTemplate.html">
+    <a>
+        <span ng-bind-html="match.label | uibTypeaheadHighlight:query" ng-attr-title="{{match.label}}"></span>
+    </a>
+  </script>
+<link rel="stylesheet" href="Scripts/app/home/home.css">
+<div class="searchbox" ng-animate="'animate'" ng-show="vm.visible.homeMain.value">
+    <div class="well">
+        <div id="searchstations">
+            <div class=form-group>
+                <label for="from">из</label>
+                <input type="text" uib-typeahead="station as station.label for station in vm.getStations($viewValue)" id="from" typeahead-template-url="customTemplate.html"
+                    ng-model="vm.fromStation" class="form-control station" 
+                    latin-to-cyrillic
+                    placeholder="Город или станция" />
+            </div>
+            <div class="ripple switcher" ng-click="vm.switchDirections()">
+                <i class="circle-icon" id="circle-icon">
+                </i>
+                <i class="train-icon" hover-a-element="circle-icon" class-name="hover">
+                </i>
+            </div>
+            <div class="form-group">
+                <label for="to">в</label>                
+                <input type="text" uib-typeahead="station as station.label for station in vm.getStations($viewValue)" id="to"
+                    typeahead-template-url="customTemplate.html" 
+                    latin-to-cyrillic
+                    ng-model="vm.toStation" class="form-control station" id="to"
+                    placeholder="Город или станция">
+            </div>
+            <div class="form-group date-form">
+                <label for="departure">Отправление</label>
+                <input readonly type="text" class="form-control" uib-datepicker-popup="{{vm.dateFormat.uiformat}}" is-open="vm.opened" id="departure"
+                    datepicker-options="vm.dateOptions" ng-model="vm.departureDate" ng-click="vm.open($event)" close-text="Закрыть"
+                    current-text="Сегодня" clear-text="Очистить">
+                <a ng-click="vm.movPrevDate()" class="btn ripple" id="arrow-left">
+                    <i class="arrow-left-icon"></i>
+                </a>
+                <a ng-click="vm.movNextDate()" class="btn ripple" id="arrow-right">
+                    <i class="arrow-right-icon"></i>
+                </a>
+            </div>
+            <div class="form-group">
+                <button class="ripple form-control btn btn-primary" 
+                    ng-click="vm.getTrains()">
+                    ПОИСК БИЛЕТОВ
+                </button>
+            </div>
+            <div class="form-group contact-group">
+                <a href="tel:+77018090200" class="btn ripple">
+                    <i class="fa fa-2x fa-phone"></i>
+                </a>
+                <span>+7 701 8090200</span>
+                <a href="intent://send/+77018090200#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end" class="btn ripple">
+                    <i class="fa fa-2x fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="highlights-button" ng-animate="'animate'" ng-show="vm.visible.homeMain.value">
+    <a class="well btn ripple" ng-click="vm.openBooking(vm.visible.homeBooking.name)">
+        <!-- <div class="form-group btn"> -->
+        <!-- <a class="btn"><i class="fa fa-2x fa-history"></i>  <span>Мои заказы</span></a> -->
+        <i class="book-order"></i>
+        <span>Мои заказы</span>
+        <!-- </div> -->
+    </a>
+</div>
+<footer class="main-footer">
+    <div class="row">
+        <div class="col-sm-6 col-xs-6">
+            <a ng-click="vm.openBooking(vm.visible.rulePurchase.name)" class="rules btn">Правила покупки</a>
+        </div>
+        <div class="col-sm-6 col-xs-6">
+            <a ng-click="vm.openBooking(vm.visible.ruleRefund.name)" class="rules btn">Правила возврата</a>
+        </div>
+    </div>
+    <div class="container">
+            <article>
+        <h3>ТОО «ITSB» / АйТиЭсБи, 2016-2017</h3>
+        
+                <p>Данные, используемые на сайте SatSapar, включая стоимость электронных ЖД билетов, взяты из официальных источников,  их стоимость указана без учета сервисного сбора SatSapar.
+                Окончательную сумму вы увидите при заполнении паспортных данных.                
+                </p>
+        </article>
+    </div>
+</footer>
+<div data-ng-include="'Scripts/app/home/bookinfo.html'" ng-show="vm.visible.homeBooking.value || vm.visible.rulePurchase.value || vm.visible.ruleRefund.value"></div>

@@ -1,0 +1,34 @@
+<div class="wagon sv" data-bind="if:currentCarType()===1,visible:currentCarType()===1">
+        <div class="wagon__tambur"> <span class="title">Тамбур</span></div>
+        <div class="wagon__bath"> <span class="title">Туалет</span></div>
+        <div class="wagon__places">
+            <div class="wagon__places__upper">
+                <div class="cell">
+                    <div class="cell__place taken"> <a ng-click="addPlace($event,1)"  ng-class="{taken:!checkAvailability(1)}">1</a></div>
+                    <div class="cell__place"> <a ng-click="addPlace($event,2)"  ng-class="{taken:!checkAvailability(2)}">2</a></div>
+                </div>
+                <div class="cell">
+                    <div class="cell__place taken"> <a ng-click="addPlace($event,3)"  ng-class="{taken:!checkAvailability(3)}">3</a></div>
+                    <div class="cell__place"> <a ng-click="addPlace($event,4)"  ng-class="{taken:!checkAvailability(4)}">4</a></div>
+                </div>
+                <div class="cell">
+                    <div class="cell__place"> <a ng-click="addPlace($event,5)" '5' ng-class="{taken:!checkAvailability(5)}">5</a></div>
+                    <div class="cell__place"> <a ng-click="addPlace($event,6)" '6' ng-class="{taken:!checkAvailability(6)}">6</a></div>
+                </div>
+                <div class="cell">
+                    <div class="cell__place"> <a ng-click="addPlace($event,7)" '7' ng-class="{taken:!checkAvailability(7)}">7</a></div>
+                    <div class="cell__place"> <a ng-click="addPlace($event,8)" '8' ng-class="{taken:!checkAvailability(8)}">8</a></div>
+                </div>
+                <div class="cell">
+                    <div class="cell__place"> <a ng-click="addPlace($event,9)" '9' ng-class="{taken:!checkAvailability(9)}">9</a></div>
+                    <div class="cell__place"> <a ng-click="addPlace($event,10)" '10' ng-class="{taken:!checkAvailability(10)}">10</a></div>
+                </div>
+                <div class="cell">
+                    <div class="cell__place"> <a ng-click="addPlace($event,11)" '11' ng-class="{taken:!checkAvailability(11)}">11</a></div>
+                    <div class="cell__place"> <a ng-click="addPlace($event,12)" '12' ng-class="{taken:!checkAvailability(12)}">12</a></div>
+                </div>
+            </div>
+            <div class="wagon__places__corridor"> <span>Коридор</span></div>
+        </div>
+        <div class="wagon__tambur"><span class="title">Тамбур</span></div>
+    </div>

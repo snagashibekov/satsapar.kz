@@ -1,0 +1,8 @@
+<div ng-controller="shellCtrl as vm">
+    <div ng-show="vm.showSpinner" class="page-splash dissolve-animation">
+        <div spinner="vm.spinnerOptions"></div>
+        <div class="page-splash-message page-splash-message-subtle">
+            {{vm.spinnerMessage}}</div>
+    </div>
+    <ui-view></ui-view>
+</div>

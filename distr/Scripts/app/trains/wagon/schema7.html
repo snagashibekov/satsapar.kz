@@ -1,0 +1,7 @@
+<div style="display:flex">
+    <div ng-repeat="place in car.Places" style="margin-right:5px;">
+        <div class="cell__place" style="display:inline">
+            <a style="display: inline" ng-click="addPlace($event,place)" ng-class="{taken:!checkAvailability(place)}">{{place}}</a>
+        </div>
+    </div>
+</div>

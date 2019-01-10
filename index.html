@@ -1,0 +1,40 @@
+<html ng-app="satsapar" ng-cloak>
+<head>
+    <meta charset="utf-8">
+    <title>ЖД Билеты</title>
+    <meta name="description" content="ЖД Билеты">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-united.min.css"> -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body >
+    <section id="top-header">
+        <div class="logo"><a class="ripple" href="/"><img src="img/logo.png"/></a></div>
+        <div class="slogan"><span>Сапарыңыз сәтті болсын!</span></div>
+    </section>
+    <section id="main-body" >
+        <div data-ng-include="'Scripts/app/layout/shell.html'" ></div>
+    </section>
+</body>
+<!-- 3rd party Scripts-->
+<script src="node_modules/angular/angular.js"></script>
+<script src="node_modules/angular-animate/angular-animate.min.js"></script>
+<script src="node_modules/angular-i18n/angular-locale_ru-kz.js"></script>
+<script src="node_modules/lodash/lodash.min.js"></script>
+<script src="node_modules/moment/min/moment.min.js"></script>
+<script src="node_modules/moment/locale/ru.js"></script>
+<script src="node_modules/moment-timezone/builds/moment-timezone.min.js"></script>
+<script src="node_modules/spin.js/spin.js"></script>
+<script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+<script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+<!-- 3rd party Scripts-->
+<!-- 3rd css -->
+<link rel="stylesheet" href="node_modules/css-ripple-effect/dist/ripple.min.css">
+<!-- 3rd css -->
+<script src="Scripts/bundle.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.min.js"></script> 
+ <script src="Scripts/app.js"></script> -->
+</html>

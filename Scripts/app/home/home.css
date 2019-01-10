@@ -1,0 +1,308 @@
+
+  /* *{
+    transition:0.5s linear all;
+  }
+  .ng-hide {
+    transition:0.5s linear all;
+    opacity:0;
+  } */
+.contact-group{
+  text-align: center;
+  margin:auto;
+}
+ .contact-group span{
+  margin: 0px 10px;  
+  font-size: 18px;
+}
+.contact-group span:hover,.contact-group span:link .contact-group span:focus{
+  text-decoration:none !important;
+} 
+.fa-whatsapp{
+  color:green;
+}  
+.searchbox{
+    border-radius: 6px 6px 0px 0px;
+}
+.searchbox ,.highlights-button{
+  margin:52px 15px 0px;
+  box-shadow: 0 0px 4px rgba(0,0,0,0.4);  
+}
+.highlights-button{
+  margin-top:30px;
+  text-align: center;
+}
+.highlights-button a{
+  text-transform: uppercase;
+  width: 100%;
+  padding:8px !important;
+  margin-bottom: 0px !important;
+}
+.searchbox .well{
+  border-radius: 6px 6px 0px 0px !important;
+  padding: 12px;
+}
+.well{       
+    background-color: #ffffff;    
+}
+.searchbox .well label{
+    line-height: 1;
+    color: #bbbbbb;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-bottom: -4px;
+    opacity: 0.5;
+    font-style:normal;
+}
+input::-moz-placeholder,input::placeholder{
+    color: #bbbbbb !important;
+    opacity: 0.8 !important;
+    font-size: 16px;
+    font-style:normal;
+}
+.searchbox .well input[type=text] {
+	border-width: 0px 0px 1px 0px ;
+	border-radius: 0px;
+    padding: 0px 3px;
+    box-shadow: none;
+    font-size: 18px;
+    -webkit-box-shadow:none;    
+}
+#searchstations{
+    position: relative;
+}
+.circle-icon,.arrow-left-icon,.book-order{
+    font-family: icon-font;
+    font-style: normal;
+}
+#arrow-left,#arrow-right{
+  font-size: 25px;
+  color: #1899F2;
+  position: absolute;
+  top:14px;
+  padding:0px 10px; 
+}
+#arrow-left{
+  left:0px;
+}
+#arrow-right{
+  left:180px;
+}
+#arrow-left:hover,#arrow-left:visited,#arrow-left:link,#arrow-right:visited,
+#arrow-right:link,#arrow-right:hover{
+  text-decoration: none;
+}
+
+
+.circle-icon::before{
+    Content:"\e834";
+}
+.arrow-left-icon::before{
+  Content:"\e803";
+}
+
+.book-order:before{
+  Content:"\e806";
+}
+
+
+.circle-icon {
+	font-size: 36px;
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+    transition:         transform 1s ease-in-out;
+}
+.train-icon {
+	position: absolute;
+	top: 19px;
+	right: 8px;
+    font-size: 20px;    
+}
+.switcher {
+	position: absolute !important;
+	top: 25px;
+    right: 0;
+    background-color: #ffffff;
+    color: #1899F2;
+    cursor: pointer;
+    padding-top: 6px;
+}
+.hover{
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+  display: inline-block; 
+}
+.circle-icon:hover{
+    -moz-animation: spin 2s infinite linear;
+    -o-animation: spin 2s infinite linear;
+    -webkit-animation: spin 2s infinite linear;
+    animation: spin 2s infinite linear;
+    display: inline-block; 
+}
+#departure {
+  padding-left: 60px;  
+}
+.searchbox .btn-primary{
+  border-radius: 40px;
+  border:0;
+}
+.date-form{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+.date-form .form-control{
+  background-color: #ffffff !important;
+}
+
+.booking-inp{
+  font-size: 14px;
+  padding: 8px 2px;
+}
+.booking-info .booking-options {
+  padding: 10px 10px 0px;
+}
+/* .booking-info .row:nth-child(2) {
+  padding: 30px 10px 0px !important;
+} */
+.row{
+  margin:auto !important;
+}
+.row .or{
+  padding: 10px 0px 0px;
+  text-align: center;
+  font-weight: bold;
+}
+.title-booking-code{
+  text-align: right; 
+}
+
+.booking-info{  
+  position: absolute;  
+  top:0px;
+  min-height: 100vh;  
+  width: 100%;
+  background-color: #ffffff;  
+  padding: 0px 20px;
+  overflow: hidden;
+}
+
+
+.booking-code-button{
+  width:100%;
+}
+
+.booking-info .well{
+  height: 170px;
+  margin-top:30px;
+  box-shadow: 0 0px 4px rgba(0,0,0,0.4);  
+}
+
+.main-footer .row{
+  padding-top: 5px ;
+}
+
+.main-footer .row div:first-child{
+  border-width: 0px 1px 0px 0px;
+  border-style:solid;
+}
+
+.main-footer .row div{
+  text-align: center;
+}
+.main-footer article h3{
+  text-align: center;
+}
+.main-footer article p{
+  text-align: justify;
+}
+.info-rules{
+  background-color: rgba(0,0,0,0.125);
+  color: rgba(0,0,0,0.5);
+}
+.rules .btn{
+  padding: 2px;
+}
+a {
+  cursor:pointer;
+}
+#departure{
+  cursor: pointer;
+}
+  .animate-enter, 
+    .animate-leave { 
+        -webkit-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+        -moz-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+        -ms-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+        -o-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+        transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+        position: relative;
+        display: block;
+    } 
+     
+    .ng-hide-add         { animation:0.8s lightSpeedOut ease; }
+
+    .ng-hide-remove      { animation:0.8s flipInX ease; }
+    
+    .dropdown-menu.ng-hide-add,.dropdown-menu.ng-hide-remove{
+      animation: none;
+    }
+    @keyframes flipInX {
+      0% {
+        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        transition-timing-function: ease-in;
+        opacity: 0;
+      }
+    
+      40% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+      }
+    
+      60% {
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        opacity: 1;
+      }
+    
+      80% {
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+      }
+    
+      100% {
+        transform: perspective(400px);
+        transform: perspective(400px);
+        transform: perspective(400px);
+      }
+    }
+    
+    /* light speed out */
+    @keyframes lightSpeedOut {
+      0% {
+        opacity: 1;
+      }
+    
+      100% {
+        transform: translate3d(100%, 0, 0) skewX(30deg);
+        transform: translate3d(100%, 0, 0) skewX(30deg);
+        opacity: 0;
+      }
+    }
+    
+    @keyframes lightSpeedOut {
+      0% {
+        opacity: 1;
+      }
+    
+      100% {
+        transform: translate3d(100%, 0, 0) skewX(30deg);
+        transform: translate3d(100%, 0, 0) skewX(30deg);
+        transform: translate3d(100%, 0, 0) skewX(30deg);
+        opacity: 0;
+      }
+    }
